@@ -1,0 +1,27 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "Friend Finder - Node and Express Servers Week 8",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "inquirer": "^6.5.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rthorpesr/FriendFinder.git"
+  },
+  "author": "r, thorpe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rthorpesr/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/Rthorpesr/FriendFinder#readme"
+}
