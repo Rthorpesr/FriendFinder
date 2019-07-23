@@ -7,64 +7,62 @@ console.log("I am now in the friends.js file");
 var friendList = [
 
     {
-  
       name: 'Reggie Thorpe',
   
       profilePic: "mypic.jpg",
   
       scores: [
   
-        "4",
+        "5",
+  
+        "5",
   
         "5",
   
         "5",
   
-        "2",
-  
-        "4",
+        "5",
   
         "5",
   
-        "4",
+        "1",
   
-        "4",
+        "1",
   
-        "3",
+        "1",
   
-        "4"
+        "1"
   
       ]
   
     },
 
     {
-  
       name: 'Johnny Brown',
   
       profilePic: "mypic.jpg",
   
       scores: [
   
-        "1",
-  
-        "2",
-  
-        "3",
-  
-        "2",
-  
-        "4",
+        "5",
   
         "5",
   
-        "4",
-  
-        "4",
+        "5",
   
         "3",
   
-        "4"
+        "3",
+  
+        "3",
+  
+        "3",
+  
+        "3",
+  
+        "3",
+  
+        "3"
   
       ]
   

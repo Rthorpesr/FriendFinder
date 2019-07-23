@@ -44,7 +44,7 @@ module.exports = function(app){
               //push results into scoresArray
               scoresArray.push(scoresDiff);
          }
-
+         console.log("the value of scoresDiff = " + scoresDiff);
     //after all friends are compared, find best match
 
     for(var i=0; i<scoresArray.length; i++)
@@ -54,12 +54,12 @@ module.exports = function(app){
                         bestMatch = i;
                    }
          }
-
+     
     //return bestMatch data
 
-    var bff = friendList[bestMatch];
-
-    res.json(bff);
+    var yourBestMatch = friendList[bestMatch];
+    console.log("the value of bestMatch = " + bestMatch)
+    res.json(yourBestMatch );
 
     //pushes new submission into the friendsList array
 
